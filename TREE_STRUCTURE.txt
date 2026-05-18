@@ -1,0 +1,23 @@
+Kreeda-Ankana/
+|-- BUILD_INSTRUCTIONS.md
+|-- FIREBASE_SETUP.md
+|-- PROJECT_STRUCTURE.md
+|-- README.md
+|-- TREE_STRUCTURE.txt
+|-- app
+|   |-- build.gradle.kts
+|   |-- google-services.json
+|   |-- proguard-rules.pro
+|   `-- src
+|       `-- main
+|           |-- AndroidManifest.xml
+|           |-- java
+|           `-- res
+|-- build.gradle.kts
+|-- gradle
+|   `-- wrapper
+|       `-- gradle-wrapper.properties
+|-- gradle.properties
+`-- settings.gradle.kts
+
+7 directories, 13 files

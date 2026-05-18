@@ -1,0 +1,64 @@
+{
+  "name": "kreeda-ankana-network",
+  "description": "Hyperledger Fabric network connection profile for Kreeda Ankana",
+  "version": "1.0.0",
+  "client": {
+    "organization": "KreedaOrg",
+    "connection": {
+      "timeout": {
+        "peer": {
+          "endorser": "300"
+        },
+        "orderer": "300"
+      }
+    }
+  },
+  "organizations": {
+    "KreedaOrg": {
+      "mspid": "KreedaOrgMSP",
+      "peers": [
+        "peer0.kreedaankana.com"
+      ],
+      "certificateAuthorities": [
+        "ca.kreedaankana.com"
+      ]
+    }
+  },
+  "peers": {
+    "peer0.kreedaankana.com": {
+      "url": "grpcs://peer0.kreedaankana.com:7051",
+      "tlsCACerts": {
+        "path": "./tls/ca.crt"
+      },
+      "grpcOptions": {
+        "ssl-target-name-override": "peer0.kreedaankana.com",
+        "hostnameOverride": "peer0.kreedaankana.com"
+      }
+    }
+  },
+  "certificateAuthorities": {
+    "ca.kreedaankana.com": {
+      "url": "https://ca.kreedaankana.com:7054",
+      "tlsCACerts": {
+        "path": "./tls/ca.crt"
+      },
+      "httpOptions": {
+        "verify": false
+      },
+      "registrar": [
+        {
+          "enrollId": "admin",
+          "enrollSecret": "adminpw"
+        }
+      ]
+    }
+  },
+  "orderers": {
+    "orderer0.kreedaankana.com": {
+      "url": "grpcs://orderer0.kreedaankana.com:7050",
+      "tlsCACerts": {
+        "path": "./tls/ca.crt"
+      }
+    }
+  }
+}

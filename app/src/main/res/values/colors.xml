@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Brand Colors -->
+    <color name="primary">#39FF14</color> <!-- Neon Green -->
+    <color name="primary_dark">#1CCA68</color>
+    <color name="primary_light">#A6FFD0</color>
+    <color name="accent">#00F0FF</color> <!-- Electric Blue -->
+    <color name="accent_orange">#FF5722</color> <!-- Orange Accent -->
+
+    <!-- Dark Theme Backgrounds -->
+    <color name="background">#060A11</color> <!-- Dark Charcoal Background -->
+    <color name="surface">#0D1622</color>
+    <color name="surface_variant">#1A2737</color>
+    
+    <!-- Text Colors -->
+    <color name="on_primary">#04120A</color>
+    <color name="on_surface">#EAF2FF</color>
+    <color name="text_secondary">#93A4BE</color>
+
+    <!-- State Colors -->
+    <color name="error">#FF3B30</color>
+    <color name="success">#34C759</color>
+    
+    <!-- Owner Specific Colors -->
+    <color name="owner_primary">#00F0FF</color>
+    <color name="owner_dark">#00B3CC</color>
+
+    <!-- Glassmorphism & Alpha Colors -->
+    <color name="glass_white_8">#14FFFFFF</color>
+    <color name="glass_white_16">#29FFFFFF</color>
+    <color name="glass_white_24">#3DFFFFFF</color>
+    <color name="glass_primary_20">#3339FF14</color>
+    <color name="glass_accent_20">#3300F0FF</color>
+
+    <color name="scanner_overlay">#CC060A11</color>
+    <color name="scanner_result_bg">#CC0D1622</color>
+    <color name="qr_frame">#39FF14</color>
+
+    <!-- Direct references for backward compatibility -->
+    <color name="blue">#00F0FF</color>
+    <color name="green">#39FF14</color>
+    <color name="orange">#FF5722</color>
+    <color name="charcoal_deep">#060A11</color>
+    <color name="charcoal_mid">#0D1622</color>
+    <color name="chip_selected_bg">#3339FF14</color>
+    <color name="chip_unselected_bg">#1A2737</color>
+    <color name="status_available">#39FF14</color>
+    <color name="status_booked">#FF3B30</color>
+    <color name="status_pending">#FF5722</color>
+    
+    <!-- Gradients (fallback base colors) -->
+    <color name="gradient_start">#00F0FF</color>
+    <color name="gradient_end">#39FF14</color>
+</resources>
