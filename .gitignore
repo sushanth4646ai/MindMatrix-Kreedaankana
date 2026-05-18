@@ -17,9 +17,4 @@ local.properties
 *.keystore
 *.log
 *.hprof
-*.png
-*.jpg
-*.jpeg
-*.gif
-/screenshots/
 /everything-claude-code

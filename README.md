@@ -320,76 +320,26 @@
   Note: Add your screenshots to a `screenshots/` directory in the
   project root and update the paths below.
 
-  ┌─────────────────────────────────────────────────────────┐
-  │  1. ONBOARDING & AUTH                                   │
-  │  ─────────────────────────────────────────────────────── │
-  │  App onboarding screens introducing the platform,       │
-  │  followed by role-based Login and Signup screens with   │
-  │  Firebase email/password authentication.                │
-  │                                                         │
-  │  File: screenshots/auth.png                             │
-  └─────────────────────────────────────────────────────────┘
+  ![Auth & Onboarding](screenshots/auth.jpeg)
+  *Login, Signup, and Onboarding screens with Firebase email/password auth*
 
-  ┌─────────────────────────────────────────────────────────┐
-  │  2. CUSTOMER HOME & GROUND LISTING                      │
-  │  ─────────────────────────────────────────────────────── │
-  │  The "Village Hub" dashboard with search bar, live      │
-  │  broadcasting carousel, sports chip filter, and popular │
-  │  grounds list from Room DB.                             │
-  │                                                         │
-  │  File: screenshots/customer_home.png                    │
-  └─────────────────────────────────────────────────────────┘
+  ![Customer Home & Ground Listing](screenshots/customer_home.jpeg)
+  *"Village Hub" dashboard with live matches, sport filters, popular grounds*
 
-  ┌─────────────────────────────────────────────────────────┐
-  │  3. BOOKING FLOW (5-STEP WIZARD)                        │
-  │  ─────────────────────────────────────────────────────── │
-  │  Multi-step booking: select sport → pick date → choose  │
-  │  time slot → select/create team → payment summary with  │
-  │  confirm button. Progress stepper at top.               │
-  │                                                         │
-  │  File: screenshots/booking.png                          │
-  └─────────────────────────────────────────────────────────┘
+  ![5-Step Booking Wizard](screenshots/booking.jpeg)
+  *Booking flow: select sport → date → time slot → team → payment*
 
-  ┌─────────────────────────────────────────────────────────┐
-  │  4. QR ENTRY PASS & INVOICE PDF                         │
-  │  ─────────────────────────────────────────────────────── │
-  │  Animated QR pass card with booking details, team       │
-  │  members list. Share via WhatsApp/Email/SMS. Download   │
-  │  Entry Pass PDF and Invoice PDF with SHA-256 hashing.   │
-  │                                                         │
-  │  File: screenshots/qr_pass.png                          │
-  └─────────────────────────────────────────────────────────┘
+  ![QR Entry Pass & Invoice](screenshots/qr_pass.jpeg)
+  *Animated QR pass with booking details, share/download PDF invoice*
 
-  ┌─────────────────────────────────────────────────────────┐
-  │  5. OWNER DASHBOARD & GROUND MANAGEMENT                 │
-  │  ─────────────────────────────────────────────────────── │
-  │  Owner command center: revenue/booking stats, quick     │
-  │  actions grid (Grounds, Slots, Bookings, Tournaments,   │
-  │  Live Scores, Analytics, Payments, QR Scan), and        │
-  │  recent activity feed.                                  │
-  │                                                         │
-  │  File: screenshots/owner_dashboard.png                  │
-  └─────────────────────────────────────────────────────────┘
+  ![Owner Dashboard](screenshots/owner_dashboard.jpeg)
+  *Owner command center: stats cards, quick actions grid, recent activity*
 
-  ┌─────────────────────────────────────────────────────────┐
-  │  6. SLOT MANAGEMENT & BOOKING REQUESTS                  │
-  │  ─────────────────────────────────────────────────────── │
-  │  Date-based slot grid with block/unblock toggles.       │
-  │  Pending booking requests with approve/reject actions.  │
-  │  Real-time Firestore sync.                              │
-  │                                                         │
-  │  File: screenshots/owner_slots.png                      │
-  └─────────────────────────────────────────────────────────┘
+  ![Slot & Booking Management](screenshots/owner_slots.jpeg)
+  *Slot grid with block/unblock, booking requests with approve/reject*
 
-  ┌─────────────────────────────────────────────────────────┐
-  │  7. TOURNAMENTS, LIVE SCORES & ANALYTICS                │
-  │  ─────────────────────────────────────────────────────── │
-  │  Tournament creation/listing, live score entry with     │
-  │  start/pause/declare winner, revenue analytics bar      │
-  │  charts with MPAndroidChart.                            │
-  │                                                         │
-  │  File: screenshots/owner_analytics.png                  │
-  └─────────────────────────────────────────────────────────┘
+  ![Tournaments, Live Scores & Analytics](screenshots/owner_analytics.jpeg)
+  *Tournament creation, live score entry, revenue analytics charts*
 
   ___________________________________________________________
 
