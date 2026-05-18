@@ -12,11 +12,11 @@
                               ✦ TABLE OF CONTENTS ✦
 
   1.  OVERVIEW
-  2.  TECH STACK
-  3.  FEATURES (CUSTOMER)
-  4.  FEATURES (GROUND OWNER)
-  5.  ARCHITECTURE
-  6.  SCREENSHOTS
+  2.  SCREENSHOTS
+  3.  TECH STACK
+  4.  FEATURES (CUSTOMER)
+  5.  FEATURES (GROUND OWNER)
+  6.  ARCHITECTURE
   7.  FIREBASE SETUP
   8.  BUILD & RUN
   9.  PROJECT STRUCTURE
@@ -43,7 +43,32 @@
 
   ___________________________________________________________
 
-                            ✦ 2. TECH STACK ✦
+                            ✦ 2. SCREENSHOTS ✦
+
+  ![Auth & Onboarding](screenshots/auth.jpeg)
+  *Login, Signup, and Onboarding screens with Firebase email/password auth*
+
+  ![Customer Home & Ground Listing](screenshots/customer_home.jpeg)
+  *"Village Hub" dashboard with live matches, sport filters, popular grounds*
+
+  ![5-Step Booking Wizard](screenshots/booking.jpeg)
+  *Booking flow: select sport → date → time slot → team → payment*
+
+  ![QR Entry Pass & Invoice](screenshots/qr_pass.jpeg)
+  *Animated QR pass with booking details, share/download PDF invoice*
+
+  ![Owner Dashboard](screenshots/owner_dashboard.jpeg)
+  *Owner command center: stats cards, quick actions grid, recent activity*
+
+  ![Slot & Booking Management](screenshots/owner_slots.jpeg)
+  *Slot grid with block/unblock, booking requests with approve/reject*
+
+  ![Tournaments, Live Scores & Analytics](screenshots/owner_analytics.jpeg)
+  *Tournament creation, live score entry, revenue analytics charts*
+
+  ___________________________________________________________
+
+                            ✦ 3. TECH STACK ✦
 
   LAYER          TECHNOLOGY
   ──────────────────────────────────────────────────────────
@@ -78,7 +103,7 @@
 
   ___________________________________________________________
 
-                        ✦ 3. FEATURES — CUSTOMER ✦
+                        ✦ 4. FEATURES — CUSTOMER ✦
 
   ── AUTH & ONBOARDING ──
   • Role-based signup/login (Customer / Ground Owner)
@@ -171,7 +196,7 @@
 
   ___________________________________________________________
 
-                        ✦ 4. FEATURES — GROUND OWNER ✦
+                        ✦ 5. FEATURES — GROUND OWNER ✦
 
   ── DASHBOARD ──
   • Revenue overview (Today's Revenue in Rs)
@@ -244,7 +269,7 @@
 
   ___________________________________________________________
 
-                          ✦ 5. ARCHITECTURE ✦
+                          ✦ 6. ARCHITECTURE ✦
 
   ── MVVM + REPOSITORY PATTERN ──
 
@@ -312,34 +337,6 @@
   • 30+ routes (auth, customer tabs, customer screens, owner screens)
   • Bottom navigation (Home, Book, Passes, Versus, Live, Profile)
   • Role-based routing (owner login → OwnerDashboard)
-
-  ___________________________________________________________
-
-                           ✦ 6. SCREENSHOTS ✦
-
-  Note: Add your screenshots to a `screenshots/` directory in the
-  project root and update the paths below.
-
-  ![Auth & Onboarding](screenshots/auth.jpeg)
-  *Login, Signup, and Onboarding screens with Firebase email/password auth*
-
-  ![Customer Home & Ground Listing](screenshots/customer_home.jpeg)
-  *"Village Hub" dashboard with live matches, sport filters, popular grounds*
-
-  ![5-Step Booking Wizard](screenshots/booking.jpeg)
-  *Booking flow: select sport → date → time slot → team → payment*
-
-  ![QR Entry Pass & Invoice](screenshots/qr_pass.jpeg)
-  *Animated QR pass with booking details, share/download PDF invoice*
-
-  ![Owner Dashboard](screenshots/owner_dashboard.jpeg)
-  *Owner command center: stats cards, quick actions grid, recent activity*
-
-  ![Slot & Booking Management](screenshots/owner_slots.jpeg)
-  *Slot grid with block/unblock, booking requests with approve/reject*
-
-  ![Tournaments, Live Scores & Analytics](screenshots/owner_analytics.jpeg)
-  *Tournament creation, live score entry, revenue analytics charts*
 
   ___________________________________________________________
 
